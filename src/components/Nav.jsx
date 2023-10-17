@@ -1,23 +1,21 @@
-import NavItem from './NavItem'
-
+import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
-    <header className='flex justify-center h-[110px] bg-gray-200  z-10 w-full border-2 border-b-stone-300'>
-      <nav className='flex justify-between items-center w-full '>
+    <header className='p-2 bg-gray-700'>
+      <nav className='flex items-center justify-between'>
         <div>
-          <a
-            href='/'
-            className='text-5xl font-mono decoration-stone-700'
-          >
+          <Link className='text-4xl font-mono text-white decoration-stone-700  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-blue-400' to='/'>
             FreeAPP
-          </a>
+          </Link>
         </div>
-        <div className='flex flex-row '>
-          <ul  className='flex flex-row'>
-            <NavItem text='APPS' />
-            <NavItem text='CODES' />
-          </ul>
-        </div>
+        <ul className='flex flex-row justify-between m-auto'>
+          <li className='p-4'>
+            <Link to='/programs' className='text-red-400 text-2xl  font-sarif'>APPS</Link>
+          </li>
+          <li className='p-4'>
+            <Link to='/codes' className='text-red-400 text-2xl  font-sarif'>CODES</Link>
+          </li>
+        </ul>
       </nav>
     </header>
   )
