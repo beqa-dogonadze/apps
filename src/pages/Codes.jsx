@@ -2,7 +2,7 @@ import Code from '../components/Code'
 
 const Codes = () => {
   return (
-    <div className='text-white'>
+    <div className='text-white h-[100vh]'>
       <Code text='adasdasdasd' />
       <h1>
         <a

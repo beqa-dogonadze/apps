@@ -2,7 +2,7 @@ import Program from '../components/Program'
 
 const Programs = () => {
   return (
-    <div className='bg-slate-950 w-full h-[100%] items-center'>
+    <div className='w-full items-center'>
       <Program />
     </div>
   )

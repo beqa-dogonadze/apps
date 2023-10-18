@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
-    <header className='p-2 bg-gray-700'>
+    <header className='p-2 bg-gray-800'>
       <nav className='flex items-center justify-between'>
         <div>
           <Link className='text-4xl font-mono text-white decoration-stone-700  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-blue-400' to='/'>
