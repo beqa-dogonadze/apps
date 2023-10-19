@@ -1,8 +1,8 @@
 const Button = ({ appURL }) => {
   return (
-    <button className='bg-white rounded-2xl border-blue-600  shadow-gray-400 shadow-xl w-[140px] h-[40px] mt-5 '>
+    <button className='bg-gradient-to-t from-gray-200 to-gray-300 rounded-2xl z-1shadow-xl lg:w-[140px] w-[100px] h-[70px] mt-5'>
       <a
-        className="text-orange-700 text-2xl font-serif	font-family: 'cascadia code'"
+        className="text-gray-600 lg:text-2xl md:md font-serif	font-family: 'cascadia code'"
         href={appURL}
         target='blank'
       >
