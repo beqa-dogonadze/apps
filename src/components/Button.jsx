@@ -1,14 +1,12 @@
 const Button = ({ appURL }) => {
   return (
-    <button className='bg-gradient-to-t from-gray-200 to-gray-300 rounded-2xl z-1shadow-xl lg:w-[140px] w-[100px] h-[70px] mt-5'>
-      <a
-        className="text-gray-600 lg:text-2xl md:md font-serif	font-family: 'cascadia code'"
-        href={appURL}
-        target='blank'
-      >
-        Download
-      </a>
-    </button>
+    <form action={appURL} target='_blank'>
+      <input
+        type='submit'
+        value='Download'
+        className='border-2 border-gray-700 rounded-2xl z-1shadow-xl lg:w-[140px] w-[100px] h-[70px] mt-5 text-xl text-blue-400 hover:text-blue-600 hover:text-2xl font-palanquin cursor-pointer'
+      />
+    </form>
   )
 }
 export default Button

@@ -1,9 +1,10 @@
-import Code from '../components/Code'
+import DateTime from '../components/DateTime'
 
 const Codes = () => {
   return (
     <div className='text-white h-[100vh]'>
-      <Code text='adasdasdasd' />
+      <DateTime />
+
       <h1>
         <a
           target='blank'
@@ -12,7 +13,6 @@ const Codes = () => {
           link
         </a>
       </h1>
-      
     </div>
   )
 }

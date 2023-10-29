@@ -1,3 +1,4 @@
+import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Nav />
+
       <Routes>
         <Route path='/' element={<Programs />}></Route>
         <Route path='/programs' element={<Programs />}></Route>

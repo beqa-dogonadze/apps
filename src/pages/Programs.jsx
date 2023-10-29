@@ -1,8 +1,10 @@
+import DateTime from '../components/DateTime'
 import Program from '../components/Program'
 
 const Programs = () => {
   return (
-    <div className='w-full items-center'>
+    <div className='w-full items-cente'>
+      <DateTime />
       <Program />
     </div>
   )
