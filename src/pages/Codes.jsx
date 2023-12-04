@@ -3,8 +3,6 @@ import DateTime from '../components/DateTime'
 const Codes = () => {
   return (
     <div className='text-white h-[100vh]'>
-      <DateTime />
-
       <h1>
         <a
           target='blank'

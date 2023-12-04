@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #root {
-  background: #000;
+  background: #0d1117;
 }

@@ -11,7 +11,7 @@ export const DateTime = () => {
   })
 
   return (
-    <div className='text-3xl p-2 font-semibold text-blue-500 font-palanquin flex justify-end'>
+    <div className='text-3xl p-2 font-semibold text-blue-500 font-palanquin flex justify-end lg:block hidden'>
       <p>{date.toLocaleTimeString()}</p>
     </div>
   )
