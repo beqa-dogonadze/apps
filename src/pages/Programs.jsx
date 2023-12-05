@@ -1,4 +1,3 @@
-import DateTime from '../components/DateTime'
 import Program from '../components/Program'
 
 const Programs = () => {

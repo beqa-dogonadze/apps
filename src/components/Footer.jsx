@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub } from 'react-icons/fa'
-import { SiGmail } from "react-icons/si";
+import { SiGmail } from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='flex gap-8'>
           <h1 className='text-white text-xl'>
             <a href='https://github.com/beqa-dogonadze' target='blank'>
-              <FaGithub className='text-4xl'/>
+              <FaGithub className='text-4xl' />
             </a>
           </h1>
           <h1 className='text-white text-xl'>

@@ -1,16 +1,12 @@
-import DateTime from '../components/DateTime'
+import WindowsAct from "../components/activation-codes/WindowsAct"
+
 
 const Codes = () => {
   return (
-    <div className='text-white h-[100vh]'>
-      <h1>
-        <a
-          target='blank'
-          href='https://downloadappsforfree.com/wp-content/uploads/2018/10/code-activate-office-2019.txt'
-        >
-          link
-        </a>
-      </h1>
+    <div className='flex flex-col items-center text-center w-ful gap-10 mt-5'>
+      <div className='flex flex-col border-2 border-gray-800 text-center justify-center items-center rounded-2xl p-3 w-[350px] md:w-[480px] lg:w-[600px]'>
+        <WindowsAct/>
+      </div>
     </div>
   )
 }
