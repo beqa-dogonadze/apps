@@ -3,7 +3,7 @@ import Button from './Button'
 const Program = () => {
   return (
     //yvela programis saerto konteineri
-    <div className='flex flex-col items-center text-center w-ful gap-10'>
+    <div className='flex flex-col items-center text-center w-ful gap-5'>
       {programs.map((item) => (
         //titoeuli programis konteineri
         <div
