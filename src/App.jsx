@@ -9,11 +9,15 @@ const App = () => {
   return (
     <BrowserRouter>
       <Nav />
+      <div className='mb-16'>
+
       <Routes>
         <Route path='/' element={<Programs />}></Route>
         <Route path='/programs' element={<Programs />}></Route>
         <Route exact path='/codes' element={<Codes />}></Route>
       </Routes>
+      </div>
+
       <Footer />
     </BrowserRouter>
   )

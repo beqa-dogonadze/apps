@@ -14,7 +14,7 @@ const Program = () => {
             {item.app}
           </h1>
           <img src={item.imgURL} width={80} className='m-5' alt={item.app} />
-          <p className='text-gray-200 text-ellipsis font-montserrat lg:text-lg md:text-md'>
+          <p className='text-gray-200 font-montserrat h-max lg:text-lg md:text-md'>
             {item.desc}
           </p>
           <Button appURL={item.url} />

@@ -1,11 +1,10 @@
-import { FaFacebook, FaGithub } from 'react-icons/fa'
-import { SiGmail } from 'react-icons/si'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#000408] w-full items-center m-auto border-t border-gray-700 bottom-0 h-[70px] flex justify-between p-5'>
+    <footer className='bg-[#000408] w-full items-center border-t fixed bottom-0 border-gray-700 h-[50px] flex justify-center md:lg:justify-between p-4'>
       <div className='flex flex-col justify-around w-auto'>
-        <div className='flex gap-8'>
+        <div className='flex gap-12'>
           <h1 className='text-white text-xl'>
             <a href='https://github.com/beqa-dogonadze' target='blank'>
               <FaGithub className='text-4xl' />
@@ -21,16 +20,16 @@ const Footer = () => {
           </h1>
           <h1 className='text-white text-xl'>
             <a
-              href='https://www.facebook.com/profile.php?id=100090537693513'
+              href='https://www.linkedin.com/in/beqa-dogonadze/'
               target='blank'
             >
-              <SiGmail className='text-4xl' />
+              <FaLinkedin className='text-4xl' />
             </a>
           </h1>
         </div>
       </div>
-      <h1 className='italic text-gray-400 text-xl justify-end flex'>
-        © 2023 Faster-Dev All rights reserved
+      <h1 className='italic text-gray-400 font-light text-xl justify-end hidden md:lg:flex'>
+        © 2023 Beqa D. All rights reserved
       </h1>
     </footer>
   )

@@ -1,21 +1,20 @@
 import { FaPaw } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import DateTime from './DateTime'
 
 const Nav = () => {
   return (
-    <header className='bg-[#000408] h-[60px]'>
-      <nav className='flex items-center justify-between '>
-        <div className='flex justify-center items-center p-4 lg:m-0 md:m-0 sm:m-2'>
+    <header className='bg-[#000408]'>
+      <nav className='flex items-center justify-center  md:lg:justify-between h-max'>
+        <div className='hidden md:lg:flex justify-center items-center p-4'>
           <Link
-            className='lg:flex md:flex hidden lg:m-auto md:m-auto justify-center items-center text-2xl font-palanquin text-white ml-5 '
+            className='lg:flex md:flex hidden lg:m-auto md:m-auto justify-center items-center text-2xl font-palanquin text-white ml-5'
             to='/'
           >
             <FaPaw className='text-blue-500 text-6xl mr-5' />
             Softwares
           </Link>
         </div>
-        <ul className='flex flex-row lg:text-3xl sm:text-3xl text-2xl mt-4 gap-16 justify-center m-auto w-full lg:gap-64 md:gap-16 sm:gap-16 absolute'>
+        <ul className='flex sm:lg:text-3xl text-2xl m-4 gap-16 justify-center md:lg:justify-end w-full lg:gap-64 sm:md:gap-16'>
           <li className='p-4'>
             <Link
               to='/programs'
@@ -33,7 +32,6 @@ const Nav = () => {
             </Link>
           </li>
         </ul>
-        <DateTime />
       </nav>
     </header>
   )
