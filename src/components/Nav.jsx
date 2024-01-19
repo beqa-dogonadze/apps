@@ -4,7 +4,7 @@ import DateTime from './DateTime'
 
 const Nav = () => {
   return (
-    <header className='bg-[#000408] h-[60]'>
+    <header className='bg-[#000408] h-[60px]'>
       <nav className='flex items-center justify-between '>
         <div className='flex justify-center items-center p-4 lg:m-0 md:m-0 sm:m-2'>
           <Link
